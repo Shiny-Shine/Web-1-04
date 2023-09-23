@@ -29,12 +29,14 @@ img {
     border: 2px solid white;
     background-color: grey;
     border-radius: 10px;
-    margin: 2.5px;
+    margin: 1.5px;
     transform: skew(-10deg);
 }
 
 img:hover {
     background-color: pink;
-    transform: skew(-10deg) scale(1.1);
+    border: 5px solid white;
+    z-index: 100;
+    transform: skew(-10deg) scale(1.25);
     transition: transform 0.1s, background-color 1s;
 }
